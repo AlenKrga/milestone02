@@ -16,8 +16,8 @@ html {
     z-index: 1;
 }
 
-
-
+/*map size*/
+div#map {min-height: 360px;}
 
 
 
