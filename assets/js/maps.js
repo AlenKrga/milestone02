@@ -34,19 +34,19 @@ function moveMap() {
           case "rovinj":
                 map = new google.maps.Map(document.getElementById('map'), {
                     center: {lat: 45.075674, lng: 13.637736 }, //Rovinj//
-                    zoom: 10
+                    zoom: 20
                 });
                 break;
            case "pula":
                map = new google.maps.Map(document.getElementById('map'), {
                     center: {lat: 44.866355, lng: 13.847376}, //Pula//
-                   zoom: 10
+                   zoom: 20
                });
                break;
           case "brijuni":
                map = new google.maps.Map(document.getElementById('map'), {
                    center: {lat: 44.910338, lng: 13.771449}, //Brijuni//
-                   zoom: 10
+                   zoom: 20
                 });
                break;
            default:
