@@ -33,7 +33,7 @@ function moveMap() {
        switch (document.getElementById("mytop3").value) {
           case "rovinj":
                 map = new google.maps.Map(document.getElementById('map'), {
-                 zoom:  2,
+                 zoom:  15,
                  center: {lat: 45.075674, 
                           lng: 13.637736 }, //Rovinj//
                    
@@ -41,7 +41,7 @@ function moveMap() {
                 break;
            case "pula":
                map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 2,
+                    zoom: 15,
                     center: {lat: 44.866355, 
                              lng: 13.847376}, //Pula//
                    
@@ -49,7 +49,7 @@ function moveMap() {
                break;
           case "brijuni":
                map = new google.maps.Map(document.getElementById('map'), {
-                   zoom: 2,
+                   zoom: 15,
                    center: {lat: 44.910338,
                             lng: 13.771449}, //Brijuni//
                    
