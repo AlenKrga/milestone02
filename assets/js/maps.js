@@ -33,8 +33,9 @@ function moveMap() {
        switch (document.getElementById("mytop3").value) {
           case "rovinj":
                 map = new google.maps.Map(document.getElementById('map'), {
-                    center: {lat: 45.075674, lng: 13.637736 }, //Rovinj//
-                    zoom: 50
+                  zoom: 50,  
+                 center: {lat: 45.075674, lng: 13.637736 }, //Rovinj//
+                    
                 });
                 break;
            case "pula":
