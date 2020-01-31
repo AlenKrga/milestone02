@@ -33,21 +33,26 @@ function moveMap() {
        switch (document.getElementById("mytop3").value) {
           case "rovinj":
                 map = new google.maps.Map(document.getElementById('map'), {
-                  zoom: 50,  
-                 center: {lat: 45.075674, lng: 13.637736 }, //Rovinj//
-                    
+                 zoom:  10,
+                 center: {lat: 45.075674, 
+                          lng: 13.637736 }, //Rovinj//
+                   
                 });
                 break;
            case "pula":
                map = new google.maps.Map(document.getElementById('map'), {
-                    center: {lat: 44.866355, lng: 13.847376}, //Pula//
-                   zoom: 50
+                    zoom: 25,
+                    center: {lat: 44.866355, 
+                             lng: 13.847376}, //Pula//
+                   
                });
                break;
           case "brijuni":
                map = new google.maps.Map(document.getElementById('map'), {
-                   center: {lat: 44.910338, lng: 13.771449}, //Brijuni//
-                   zoom: 50
+                   zoom: 45,
+                   center: {lat: 44.910338,
+                            lng: 13.771449}, //Brijuni//
+                   
                 });
                break;
            default:
