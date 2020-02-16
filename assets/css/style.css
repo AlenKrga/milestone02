@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 /*smooth scrollbar*/
 html {
   scroll-behavior: smooth;
@@ -15,6 +24,19 @@ html {
     margin-bottom: 0px;
     z-index: 1;
 }
+
+#funfacts {
+     background-image: url("../images/sahbg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat; 
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+
+
 
 /*map size*/
 div#map {min-height: 360px;}
@@ -34,3 +56,9 @@ div#map {min-height: 360px;}
        1px 1px 0 #000;
 }
 
+
+
+/*font awesome icon color*/
+.fa-sun {
+    color: #f9d71c
+}
