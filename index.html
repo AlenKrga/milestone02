@@ -8,14 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   
-      <link href="assets/css/style.css" rel="stylesheet">
-      
-     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-<script type="text/javascript">
+    <link href="assets/css/style.css" rel="stylesheet">
+      <!-- email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+      <script type="text/javascript">
    (function(){
       emailjs.init("user_SLYusHb38wSBIGPLmdjs1");
    })();
-</script>
+      </script>
+      <!-- fontawesome -->
+      <script src="https://kit.fontawesome.com/feb701b068.js" crossorigin="anonymous"></script>
 	  
     <title>My Top 3 places</title>
   </head>
@@ -93,7 +95,11 @@
               
      <!-- gallery -->
 	  
-   <div class="container" id="gallery">
+   <div class="container-fluid jumbotron" id="gallery">
+       <h4>Beautiful photos of my top 3 places to visit:</h4>
+                
+                
+       
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -102,24 +108,24 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/rovinj.jpg" class="d-block w-100" alt="...">
+      <img src="assets/images/rovinj.jpg" class="d-block w-100" alt="Rovinj">
       <div class="carousel-caption d-none d-md-block">
         <h5>Rovinj</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <p>Rovinj is a Croatian fishing port on the west coast of the Istrian peninsula.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/pula.jpg" class="d-block w-100" alt="...">
+      <img src="assets/images/pula.jpg" class="d-block w-100" alt="Pula">
       <div class="carousel-caption d-none d-md-block">
         <h5>Pula</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Pula is the largest city in Istria County.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/brijuni.jpg" class="d-block w-100" alt="...">
+      <img src="assets/images/brijuni.jpg" class="d-block w-100" alt="Brijuni">
       <div class="carousel-caption d-none d-md-block">
         <h5>Brijuni</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <p>The Brijuni islands are one of the 8 national parks in Croatia, situated in Istria.</p>
       </div>
     </div>
   </div>
@@ -133,6 +139,7 @@
   </a>
 </div>  
       </div>
+      
 
 <!-- fun facts -->
     <div class="container-fluid jumbotron" id="funfacts">
@@ -144,13 +151,14 @@
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           The lucky people in Croatia enjoy 2,715 hours of sunshine a year
+           
         </button>
       </h2>
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-        That’s more than people living in Sydney, Australia get.
+        That’s more than people living in Sydney, Australia get. <i class="far fa-sun fa-spin"></i>
       </div>
     </div>
   </div>
@@ -164,7 +172,7 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        Istria in Croatia is one of the only 3 conserved in the world. It is also the 6th biggest amphitheatre in existence.
+        Istria in Croatia is one of the only 3 conserved in the world. It is also the 6th biggest amphitheatre in existence. <i class="fas fa-ring"></i>
       </div>
     </div>
   </div>
@@ -179,6 +187,7 @@
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
         The biggest ever necktie in the world, measuring 808 metres, was displayed in Croatia. It took five days to complete and was tied around the Pula Arena in 2003.
+          <i class="fab fa-black-tie"></i>
       </div>
     </div>
   </div>
@@ -191,7 +200,7 @@
       
       <div class="container-fluid jumbotron" id="gmaps" >
       <div class="container">
-          
+          <h4 class="mb-3">My top 3 recomended places to visit:</h4>
           
           
     <div class="container-fluid mb-4">
@@ -209,18 +218,17 @@
           <div id="map"></div>
           </div>
           </div>
-      
- <!-- contact me -->
+      </div>
           
 <!-- contact me -->
 <div id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-lg-6 ">
+            <div class="col-sm-12 col-lg- ">
                 <div class="form-area">  
                     <form onsubmit="return sendMail(this);">
                         <br style="clear:both">
-                            <h3>Contact Form</h3>
+                            <h3>Got question?</h3>                           
     				    <div class="form-group">
 						<input type="text" class="form-control" id="fullname" name="name" placeholder="Name" required>
 					   </div>
@@ -243,7 +251,21 @@
         </div>  
     </div>
 </div>
-      
+
+ <!-- footer -->   
+<footer>
+    <div class="container-fluid jumbotron bg-info"> 
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <p class="h6 text-white text-center py-3">This website was made as milestone project for CodeInstitute</p>
+             
+                
+        </div>
+        </div>
+    </div>
+
+        
+</footer>       
 	  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
