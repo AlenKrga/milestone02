@@ -1,4 +1,4 @@
-# My Top three places to visit in Istria Croatia
+# My Top 3 places to visit in Istria Croatia
 
 This is my second milestone project for CodeInstitute.
 Project is about my top 3 places to visit in Istria Croatia.
