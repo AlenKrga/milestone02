@@ -1,7 +1,7 @@
 # My Top three places to visit in Istria Croatia
 
 This is my second milestone project for CodeInstitute.
-Project is about my top 3 places to visit in Istria - Croatia.
+Project is about my top 3 places to visit in Istria Croatia.
 
 A live demo can be found [Here-My top 3 places to visit in Istria - Croatia](https://alenkrga.github.io/milestone02/)
  
