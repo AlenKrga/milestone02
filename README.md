@@ -58,7 +58,7 @@ and on the same time when changes were made also updated online on GitHub
 ### Content
 - The text for section Rovinj was copied from the [Croatia-Expert article Rovinj](https://www.croatia-expert.com/rovinj/)
 - The text for section Pula was copied from the [Croatia-Expert article Rovinj](https://www.croatia-expert.com/pula-croatia/)
-- - The text for section Pula was copied from the [Parkovi-Hrvatske article Story of the park](https://www.parkovihrvatske.hr/en/national-park-brijuni)
+- The text for section Pula was copied from the [Parkovi-Hrvatske article Story of the park](https://www.parkovihrvatske.hr/en/national-park-brijuni)
 
 ### Media
 - The photos used in this site were obtained from google images.
